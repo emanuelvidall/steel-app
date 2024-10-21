@@ -3,7 +3,7 @@ export default function Home() {
     <div className="bg-[#111111]  min-h-screen flex items-center justify-center font-[family-name:var(--font-geist-sans)]">
       <div className="bg-[#111111] w-3/5 min-h-screen flex justify-start">
         <div className="w-1/2 min-h-screen flex flex-col pt-[184px]">
-          <div className="flex justify-between flex-col">
+          <div className="flex justify-between flex-col animate-fadeInUp">
             <h1 className="text-[84px] font-semibold text-white">Steel</h1>
             <h2 className="text-[34px] font-semibold leading-8 mb-4 text-white">
               Smart Technology for Equipment Efficiency and Longevity
@@ -20,7 +20,7 @@ export default function Home() {
             autoPlay
             loop
             muted
-            className="w-full h-[278px] object-cover rounded-3xl"
+            className="w-full h-[278px] object-cover rounded-3xl animate-fadeInUp"
             src="/videos/steel.mp4"
           />
         </div>
